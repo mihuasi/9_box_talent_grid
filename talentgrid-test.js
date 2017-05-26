@@ -18,7 +18,7 @@ $(document).ready( function () {
             center: 'Growth',
             top: 'High'
         },
-        imageSrc: 'http://localhost/talentgrid/smiley.png', // Location of image for token graphic.
+        imageSrc: './smiley.png', // Location of image for token graphic.
         imageTitle: 'hey, drag me', // Token title text.
         showExternalToken: true, // Whether to display the external token.
         allowTokenDragging: true, // Whether the token is draggable or static.
@@ -69,10 +69,10 @@ $(document).ready( function () {
                     [{name:'Josh'}]
             },
         },
-        imageTwoSrc: 'http://localhost/talentgrid/smiley.png',
-        imageThreeSrc: 'http://localhost/talentgrid/smiley.png',
-        imageFourSrc: 'http://localhost/talentgrid/smiley.png',
-        imageManySrc: 'http://localhost/talentgrid/smiley.png',
+        imageTwoSrc: './smiley.png',
+        imageThreeSrc: './smiley.png',
+        imageFourSrc: './smiley.png',
+        imageManySrc: './smiley.png',
     };
     /*var talentgrid = $('.talentgrid').talentgriddle({
         showExternalToken: false,
