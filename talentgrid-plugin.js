@@ -1,3 +1,9 @@
+/*
+ * @package    Talent Grid jQuery plugin.
+ * @copyright  2017 Joseph Cape (http://chacana.co.uk)
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 (function ( $ ) {
 $.fn.talentgriddle = function(options) {
     if (options == null) {
@@ -464,7 +470,7 @@ $.fn.talentgriddle = function(options) {
             center: 'Growth',
             top: 'High'
         });
-        setOptionDefault(options, 'imageSrc', 'http://localhost/talentgrid/smiley.png');
+        setOptionDefault(options, 'imageSrc', './smiley.png');
         setOptionDefault(options, 'imageTitle', 'hey, drag me');
         setOptionDefault(options, 'showExternalToken', true);
         setOptionDefault(options, 'allowTokenDragging', true);

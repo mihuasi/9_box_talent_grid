@@ -1,3 +1,9 @@
+/*
+ * @package    Talent Grid jQuery plugin.
+ * @copyright  2017 Joseph Cape (http://chacana.co.uk)
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 .talentgrid-report-container .cell-with-smiley, .talentgrid-report-container .cell-with-multiple-smileys {
     cursor: pointer;
 }

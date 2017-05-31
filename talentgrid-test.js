@@ -1,3 +1,9 @@
+/*
+ * @package    Talent Grid jQuery plugin.
+ * @copyright  2017 Joseph Cape (http://chacana.co.uk)
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 $(document).ready( function () {
 
     var options = {
@@ -78,5 +84,6 @@ $(document).ready( function () {
         showExternalToken: false,
         prePlaceDraggableIcon: true
     });*/
-    var talentgrid = $('.talentgrid').talentgriddle();
+    // var talentgrid = $('.talentgrid').talentgriddle();
+    var talentgrid = $('.talentgrid').talentgriddle(options);
 });
